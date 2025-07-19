@@ -14,8 +14,8 @@ class HomeController implements ControllerInterface
     public function handle(Context $ctx): ResponseWriter
     {
         $response = $ctx->response->withStatus(Status::OK)->json([
-            'message' => 'Hello, World!',
-            'timestamp' => time(),
+            "message" => "Hello, World!",
+            "timestamp" => time(),
         ]);
 
         return $response;
