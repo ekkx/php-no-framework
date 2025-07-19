@@ -1,0 +1,13 @@
+{
+    "name": "ekkx/php-no-framework",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "php": "^8.4.10",
+        "nikic/fast-route": "^1.3"
+    }
+}
